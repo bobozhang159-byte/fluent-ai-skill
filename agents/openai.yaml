@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workbench CFD Automation"
+  short_description: "Automate ANSYS geometry-to-results CFD workflows"
+  default_prompt: "Use $workbench-cfd-automation to control, build, mesh, solve, validate, and export a Workbench CFD workflow."

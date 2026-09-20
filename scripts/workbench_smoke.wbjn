@@ -1,0 +1,8 @@
+import json
+
+messages = [m.Summary for m in GetMessages()]
+wb_script_result = json.dumps({
+    "status": "ok",
+    "control_channel": "pyworkbench",
+    "message_count": len(messages)
+})

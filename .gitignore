@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ANSYS/CFD project files and local run outputs
+.venv*/
+run-*/
+outputs/
+*.wbpj
+*_files/
+*.scdoc
+*.scdocx
+*.dsco
+*.cas
+*.cas.h5
+*.dat
+*.dat.h5
+*.msh
+*.msh.h5
+*.res
+*.rst
+*.trn
+*.out
